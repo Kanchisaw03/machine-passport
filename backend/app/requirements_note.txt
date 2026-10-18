@@ -1,0 +1,1 @@
+Backend dependencies are declared in the repository root requirements.txt.

@@ -1,0 +1,51 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+service-account*.json
+
+# Local runtime data, recordings, and evaluation output
+data/
+eval/data/
+eval/results/
+*.sqlite
+*.sqlite3
+*.db
+*.mp3
+*.m4a
+*.webm
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mpeg
+*.mpg
+*.m4v
+*.3gp
+*.3g2
+*.ts
+*.mts
+*.m2ts
+*.ogv
+*.vob
+*.asf
+*.mxf
+*.divx
+!frontend/sample_clips/**/*.wav
+!backend/tests/fixtures/*.wav
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Temporary work directories and local cloud/deployment metadata
+tmp*/
+.gcloud/
+.terraform/
